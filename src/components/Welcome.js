@@ -1,7 +1,6 @@
 // write code for Welcome component here
-// write code for Welcome component here
 import React from "react";
-function Welcome(props){
+function greeting_message(props){
 return (
     <React.Fragment>
         <h1>Hey ! {props.name}</h1>
@@ -11,4 +10,4 @@ return (
 
 }
 
-export default Welcome;
+export default greeting_message;
